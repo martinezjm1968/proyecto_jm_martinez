@@ -1,0 +1,359 @@
+/* Primero tipografía y luego * los márgenes si o si */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------------------- */
+/* Comienza Header */
+
+header{
+    /* Color cabecera */
+    background-color: rgba(0, 0, 0, 0.85);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu_titulo {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-content:center ;
+    flex-direction: column;
+}
+
+    .cabecera {
+        color: white;
+        text-align: left;
+        font-size: 15px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    .cabecera_local {
+        color: white;
+        text-align: right;
+        font-size: 15px;
+        float: right;
+        margin-right: 10px;
+        
+    }
+
+.menu_principal{
+    max-width: 100%;
+    display:flex ;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 20px 15px 10px 15px;
+}
+
+    .logo_electroavenida {
+        /*margin-left: 3px ;*/
+        width: 120px;
+        height: 120px;
+        
+    }
+    
+    .electroavenida_titulo {
+        font-size: 60px;
+        font-family:'Arial Narrow Bold', sans-serif ;
+        font:bold;
+        color:  rgba(0, 0, 0, 0.512);
+        
+    }
+
+    .label_buscar {
+        color: rgb(222, 208, 208);
+    }
+
+
+/* Menu horizontal */
+body header nav div ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.desplegable{
+    max-width: 100%;    
+    display:flex ;
+    justify-content:center;
+}
+
+.item_desplegable {
+    float: center;
+    color: white;
+    font-size: 30px;
+    /* fondo letras menu */
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* --------------------------------------------------------- */
+/* Comienzo con Main dentro del Body */ 
+.back_main {
+    /*background-image: url("../img/aeropuerto.jpg");*/
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url("../img/aeropuerto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container_productos {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#neon {
+    font-size: 22px; 
+    color: #FFFFFF;
+    background: #33333300;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ec0b0b 0px 0px 20px, #ec0b0b 0px 0px 30px, #ec0b0b 0px 0px 40px, #ec0b0b 0px 0px 50px, #ec0b0b 0px 0px 75px;
+    color: #FFFFFF;
+    background: #33333300;
+    }
+
+
+section div h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.producto {
+    font-size: 15px;
+    background: rgb(202, 199, 199);
+    color: black;
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center;
+    transition: 1s;
+
+}
+
+.producto:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.item_producto {
+    margin: 3px;
+    width: 150px;
+    height: 150px;
+}
+
+.titulo_show {
+    margin-left: 180px;
+    color: white;
+    font-size: 20px;
+}
+
+.menu_show {
+    display: inline-block;
+}
+
+.pages_nro {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* --------------------------------------------------------- */
+/* Contacto */ 
+.contacto_cuerpo {
+    border: 1px dashed black ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+
+.contacto_dentro_cuerpo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.contacto_div {
+    padding: 5px 15px 15px 25px;
+}
+
+.contacto_botones {
+    padding: 5px 5px 5px 140px;
+}
+
+
+/* --------------------------------------------------------- */
+/* VF */ 
+.container_productos_vf {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-size: 25px;
+    font-style: bold;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    margin-top: 10px;
+}
+
+h6 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+
+}
+
+
+/* --------------------------------------------------------- */
+/* Posteos */ 
+.blogs {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    gap: 30px;
+    
+}
+
+.blog_text {
+    font-size: 15px;
+}
+
+.blog_imagen {
+    border: 2px solid black;    
+    width: 305px;
+    height: 305px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_blog {
+    width: 300px;
+    height: 300px;
+    list-style: none;
+    
+}
+
+/* --------------------------------------------------------- */
+/* Comienzo con footer */ 
+footer{
+    background-color:  rgba(0, 0, 0, 0.85);
+}
+
+.pie_de_pagina{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    
+}
+
+.pie_pagina {
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    
+}
+
+/* Contenedor de contacto */
+.contacto {
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    
+}
+/* Titulo de Contacto */ 
+.contacto_ref {
+    text-decoration:coral ;
+    
+    font-size: 35px;
+}
+
+.maps_google {
+    width: 800px;  
+    height: 300px;
+}
+
+/* Posiciono los íconos de redes sociales para que sean siempre visibles */
+.redes_sociales {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.redes_sociales_icon {
+    height:40px; 
+    width:40px;
+    transition: 1s;
+}
+
+.redes_sociales_icon:hover {
+    height: 60px;
+    width: 60px;
+}
+
+
+/* --------------------------------------------------------- */
+/* Comienzo con media screen para responsive */
+/* Medidas utilizadas 1350,1020, 880 */
+/*
+@media screen and (max-width:1560px) {
+    .menu_desplegabe1 {
+        
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 2px;
+        padding-right: 2px;        
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        margin-right: 5px;
+        
+    }
+}
+*/
