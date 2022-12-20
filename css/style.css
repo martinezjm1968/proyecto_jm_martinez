@@ -549,6 +549,18 @@ footer{
     h6 { 
         font-size: 15px;
     }
+    /* Ajusto Blog */
+    .blog_text {
+        font-size: 10px;
+    }
+    .blog_imagen {
+        width: 150px;
+        height: 150px;
+    }
+    .item_blog {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 /* 650px */    
@@ -642,5 +654,17 @@ footer{
         width: 80px;  
         height: 50px;
     }
+        /* Ajusto Blog */
+        .blog_text {
+            font-size: 8px;
+        }
+        .blog_imagen {
+            width: 90px;
+            height: 90px;
+        }
+        .item_blog {
+            width: 90px;
+            height: 90px;
+        }
 }
 /* Fin de media screen */
