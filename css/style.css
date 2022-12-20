@@ -68,6 +68,7 @@ header{
 
     .label_buscar {
         color: rgb(222, 208, 208);
+        font-size: 20px;
     }
 
 
@@ -109,8 +110,6 @@ body header nav div ul {
     background-size: cover;
 }
 
-
-
 .container_productos {
     max-width: 100%;
     margin: 10px 10px 10px 10px;
@@ -131,7 +130,6 @@ body header nav div ul {
     color: #FFFFFF;
     background: #33333300;
     }
-
 
 section div h3{
     font-size: 25px;
@@ -163,10 +161,30 @@ section div h3{
     height: 150px;
 }
 
+/* Distribución paginas */
+.dist_pag {
+    background: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dist_pag_grid {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: .4fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .titulo_show {
-    margin-left: 180px;
+    /*margin-left: 180px;*/
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .menu_show {
@@ -175,13 +193,21 @@ section div h3{
 
 .pages_nro {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
 
 /* --------------------------------------------------------- */
 /* Contacto */ 
+.contacto_main {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
 .contacto_cuerpo {
     border: 1px dashed black ;
     margin-top: 20px;
@@ -304,12 +330,11 @@ footer{
 .contacto {
     margin: 5px 5px 5px 5px;
     font-size: 20px;
-    
 }
 /* Titulo de Contacto */ 
 .contacto_ref {
-    text-decoration:coral ;
-    
+    text-decoration: none;
+    color:#ec0b0b;
     font-size: 35px;
 }
 
@@ -339,21 +364,283 @@ footer{
 
 /* --------------------------------------------------------- */
 /* Comienzo con media screen para responsive */
-/* Medidas utilizadas 1350,1020, 880 */
-/*
-@media screen and (max-width:1560px) {
-    .menu_desplegabe1 {
-        
-        font-size: 15px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        padding-left: 2px;
-        padding-right: 2px;        
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 40px;
-        margin-right: 5px;
-        
+/*  */
+
+/* 1875 */
+@media screen and (max-width:1875px) {
+    /* Ajusto VF */
+    .container_productos_vf {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    h5 {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    h6 { 
+        font-size: 22px;
     }
 }
-*/
+
+
+/* 1560px */
+@media screen and (max-width:1560px) {
+    /* Ajusto footer */
+    .contacto {
+        font-size: 15px;
+    }
+    /* Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 30px;
+    }
+    
+    .maps_google {
+        width: 600px;  
+        height: 250px;
+    }
+}
+
+/* 1430 */ 
+@media screen and (max-width:1430px) {
+    /* Ajusto VF */
+    .container_productos_vf {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    h5 {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    h6 { 
+        font-size: 18px;
+    }
+}
+
+/* 1210 */
+@media screen and (max-width:1210px) {
+    /* Ajusto VF */
+    .container_productos_vf {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h5 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    h6 { 
+        font-size: 15px;
+    }
+}
+
+/* 1180px */
+@media screen and (max-width:1180px) {
+    /* Ajusto footer */
+    .contacto {
+        font-size: 10px;
+    }
+    /* Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 25px;
+    }
+    .maps_google {
+        width: 500px;  
+        height: 250px;
+    }
+}
+
+/* 1130px */
+@media screen and (max-width:1130px) {
+    /* Ajusto menú cabecera */
+    .item_desplegable {
+        font-size: 20px;
+    }
+    /* Ajusto contenedor de productos */
+    .container_productos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .cabecera {
+        font-size: 12px;
+    }
+
+    .cabecera_local {
+        font-size: 12px;
+    }
+}
+
+
+/* 920px */
+@media screen and (max-width:920px) {
+    /* Ajusto footer */
+    .contacto {
+        font-size: 10px;
+    }
+    /* Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 20px;
+    }
+    
+    .maps_google {
+        width: 400px;  
+        height: 200px;
+    }
+    /* Cabecera Buscar */
+    .label_buscar {
+        color: rgb(222, 208, 208);
+        font-size: 15px;
+    }
+
+}
+
+/* 840px */ 
+@media screen and (max-width:840px) {
+    /* Ajusto menú cabecera */
+    .item_desplegable {
+        font-size: 15px;
+    }
+    .logo_electroavenida {
+        width: 90px;
+        height: 90px;
+    }
+    .electroavenida_titulo {
+        font-size: 40px;
+    }
+    /* Ajusto contenedor de productos */
+    .container_productos {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    /* Ajusto footer */
+    .maps_google {
+        width: 300px;  
+        height: 200px;
+    }
+}
+
+/* 780px */    
+@media screen and (max-width:780px) {
+    /* Cabecera */
+    .item_desplegable {
+        font-size: 12px;
+    }
+    /* Ajusto footer */
+    .contacto {
+        font-size: 8px;
+    }
+    /* Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 20px;
+    }
+    
+    .maps_google {
+        width: 250px;  
+        height: 180px;
+    }
+    
+    /* Ajusto VF */
+    .container_productos_vf {
+        grid-template-columns: 1fr 1fr;
+    }
+    h5 {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    h6 { 
+        font-size: 15px;
+    }
+}
+
+/* 650px */    
+@media screen and (max-width:650px) {
+    /* Ajusto menú cabecera */
+    .logo_electroavenida {
+        width: 60px;
+        height: 60px;
+    }
+    .electroavenida_titulo {
+        font-size: 25px;
+    }
+    .item_desplegable {
+        font-size: 8px;
+    }
+    /* Ajusto contenedor de productos */
+    .container_productos {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+    /* Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 15px;
+    }
+    
+    .maps_google {
+        width: 200px;  
+        height: 150px;
+    }
+}
+
+/* 550px */    
+@media screen and (max-width:550px) {
+    /* Header Ajusto menú cabecera */
+    .logo_electroavenida {
+        width: 40px;
+        height: 40px;
+    }
+    .electroavenida_titulo {
+        font-size: 15px;
+    }
+    .item_desplegable {
+        font-size: 8px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    /* Cabecera Buscar */
+    .label_buscar {
+        color: rgb(222, 208, 208);
+        font-size: 9px;
+    }
+    .cabecera {
+        font-size: 8px;
+    }
+
+    .cabecera_local {
+        font-size: 8px;
+    }
+
+    /* Ajusto Main - contenedor de productos */
+    .container_productos {
+        grid-template-columns: 1fr;
+        gap: 2px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+    }
+    /* Ajusto VF */
+    .container_productos_vf {
+        grid-template-columns: 1fr;
+    }
+    /* importe vf */
+    h5 {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    /* título vf */
+    h6 { 
+        font-size: 20px;
+    }
+    /* Footer - Titulo de Contacto */ 
+    .contacto_ref {
+        font-size: 8px;
+    }
+    
+    .maps_google {
+        width: 80px;  
+        height: 50px;
+    }
+}
+/* Fin de media screen */
