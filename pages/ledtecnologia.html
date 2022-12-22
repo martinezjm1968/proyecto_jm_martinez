@@ -1,193 +1,258 @@
 <!-- Con ! me trae la estructura completa -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
-        <title>ElectroAvenida</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- /* Bootstrap */ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>ElectroAvenida</title>
+</head>
 
 <!-- Comienza el body o cuerpo del HTML -->
 
 
+<body>
 
+    <!--// Encabezado -->
+    <header>
+        <nav class="menu_titulo">
+            <div>
+                <span class="cabecera">www.ElectroAvenida.com</span>
 
-    <body>
-        
-        <!--// Encabezado -->
-        <header>
-            <nav class="menu_titulo"> 
-                <div>
-                    <span class="cabecera">www.ElectroAvenida.com</span>
-                
-                    <span class="cabecera_local">Mendoza 2626-Rosario-Argentina-TE: +54 341(15)5780456</span> 
-                </div>
-            </nav>
-            <nav class="menu_principal">
-                <div>
-                    <img class="logo_electroavenida" src="../img/ledtecnologia.png" alt="Icono de LedTecnologia">
-                </div>
+                <span class="cabecera_local">Mendoza 2626-Rosario-Argentina-TE: +54 341(15)5780456</span>
+            </div>
+        </nav>
+        <nav class="menu_principal">
+            <div>
+                <img class="logo_electroavenida" src="../img/ledtecnologia.png" alt="Icono de LedTecnologia">
+            </div>
 
-                <div class="electroavenida_titulo">
-                    <p>ElectroAvenida</p>
-                </div>
-            
-                <div class="buscar">
-                    <label class="label_buscar" for="buscar:">Buscar:</label>
-                    <input class="label_buscar" type="text" id="buscar">                 
-                </div>
-            </nav>
-            
-            <nav>
-                <div class="despegable">
-                    <ul>
-                        <li><a class="item_desplegable" href="../index.html">ElectroAvenida</a></li>
-                        <li><a class="item_desplegable" href="../pages/ledtecnologia.html">LedTecnología</a></li>
-                        <li><a class="item_desplegable" href="../pages/vf.html">VF Ventiladores de Fábrica</a></li>
-                        <li><a class="item_desplegable" href="../pages/posteos.html">Blogs</a></li>
-                        <li><a class="item_desplegable" href="#contacto">Contacto</a></li>
+            <div class="electroavenida_titulo">
+                <p>ElectroAvenida</p>
+            </div>
+            <div>
+
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">ElectroAvenida</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../pages/ledtecnologia.html">LedTecnologia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/vf.html">VF</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/posteos.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+                        </li>
                     </ul>
-                
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="back_main">
+            <div class="container_productos">
+                <div class="producto">
+                    <h3> Perfiles tira led </h3>
+                    <img class="item_producto" src="../img/perfil.jpg" alt="Icono de Perfil">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
                 </div>
 
-            </nav>
+                <article class="producto">
+                    <h3> Disyuntor </h3>
+                    <img class="item_producto" src="../img/disyuntor.jpg" alt="Icono de Disyuntor">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
 
-        </header>
-        
-    
+                <article class="producto">
+                    <h3> Termica </h3>
+                    <img class="item_producto" src="../img/termica.jpg" alt="Icono de Termica">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
 
-        <main>
-            <section class="back_main">
-                <div class="container_productos">
-                    <div class="producto">   
-                        <h3> Perfiles tira led </h3>
-                        <img class="item_producto" src="../img/perfil.jpg" alt="Icono de Perfil">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </div> 
-                    
-                    <article class="producto">
-                        <h3> Disyuntor </h3>
-                        <img class="item_producto" src="../img/disyuntor.jpg" alt="Icono de Disyuntor">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
-                    
-                    <article class="producto">
-                        <h3> Termica </h3>
-                        <img class="item_producto" src="../img/termica.jpg" alt="Icono de Termica">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
-                    
-                    <article class="producto">   
-                        <h3> High Bay 200W </h3>
-                        <img class="item_producto" src="../img/highbay.jpg" alt="Icono de High Bay">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article> 
-                    
-                    <article class="producto">
-                        <h3> Led Insectos </h3>
-                        <img class="item_producto" src="../img/Ledinsectos.jpg" alt="Icono de Led Insectos">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
-                    
-                    <article class="producto">
-                        <h3> Fuente 30A </h3>
-                        <img class="item_producto" src="../img/fuente.jpg" alt="Icono de Fuente">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
+                <article class="producto">
+                    <h3> High Bay 200W </h3>
+                    <img class="item_producto" src="../img/highbay.jpg" alt="Icono de High Bay">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
 
-                    <article class="producto">   
-                        <h3> Colgante </h3>
-                        <img class="item_producto" src="../img/Colgante.jpg" alt="Icono de Colgante">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article> 
-                    
-                    <article class="producto">
-                        <h3> Via Pública 200W </h3>
-                        <img class="item_producto" src="../img/viapublica.jpg" alt="Icono de Via Publica">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
-                    
-                    <article class="producto">
-                        <h3> Camaras </h3>
-                        <img class="item_producto" src="../img/camaras.jpg" alt="Icono de Camaras">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
-                    <article class="producto">
-                        <h3> Ventiladores </h3>
-                        <img class="item_producto" src="../img/ventilador.jpg" alt="Icono de Ventilador">
-                        <a href=""></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint nostrum dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi aut inventore quae?</p>
-                    </article>
+                <article class="producto">
+                    <h3> Led Insectos </h3>
+                    <img class="item_producto" src="../img/Ledinsectos.jpg" alt="Icono de Led Insectos">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
 
-                </div> 
-            </section>
-            <section class="dist_pag" >
-                <div class="dist_pag_grid" >
-                    <div class="titulo_show">
-                        <h4>Show:</h4>
-                    </div>
-                    <div class="menu_show">
-                        <select name="show" id="">
-                            <option value="">10</option>
-                            <option value="">20</option>
-                            <option value="">30</option>
-                            <option value="">50</option>
-                            
-                        </select>
-                    </div>
-                    <div class="pages_nro">
-                        <p>Pages: 1</p>
-                    </div>
+                <article class="producto">
+                    <h3> Fuente 30A </h3>
+                    <img class="item_producto" src="../img/fuente.jpg" alt="Icono de Fuente">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
+
+                <article class="producto">
+                    <h3> Colgante </h3>
+                    <img class="item_producto" src="../img/Colgante.jpg" alt="Icono de Colgante">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
+
+                <article class="producto">
+                    <h3> Via Pública 200W </h3>
+                    <img class="item_producto" src="../img/viapublica.jpg" alt="Icono de Via Publica">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
+
+                <article class="producto">
+                    <h3> Camaras </h3>
+                    <img class="item_producto" src="../img/camaras.jpg" alt="Icono de Camaras">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
+                <article class="producto">
+                    <h3> Ventiladores </h3>
+                    <img class="item_producto" src="../img/ventilador.jpg" alt="Icono de Ventilador">
+                    <a href=""></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea facere modi ipsam sint
+                        nostrum
+                        dignissimos beatae illum, enim veritatis tempore placeat quo voluptatem incidunt natus sequi
+                        aut
+                        inventore quae?</p>
+                </article>
+
+            </div>
+        </section>
+        <section class="dist_pag">
+            <div class="dist_pag_grid">
+                <div class="titulo_show">
+                    <h4>Show:</h4>
                 </div>
-            </section>                </main>
+                <div class="menu_show">
+                    <select name="show" id="">
+                        <option value="">10</option>
+                        <option value="">20</option>
+                        <option value="">30</option>
+                        <option value="">50</option>
 
-
-        <footer class="pie_de_pagina">
-            <section class="pie_pagina">
-
-                <div class="contacto">
-                    <a class="contacto_ref" name="contacto" href="../pages/contacto.html">Contacto:</a>
-                    
-                    <p>ElectroAvenida</p> 
-                    <p>Contacto:  +54 341 (15) 5780456</p>
-                    <p>Dirección: Mendoza 2626</p>
-                    <p>Mail: contacto@electroavenida.com</p>
+                    </select>
                 </div>
-
-                <div>
-                    
-                    <iframe class="maps_google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.12534688777!2d-60.662573885206804!3d-32.947699879270694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab426221ddfd%3A0x40ac2532ea533e49!2sMendoza%202626%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1669205675950!5m2!1ses-419!2sar" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="pages_nro">
+                    <p>Pages: 1</p>
                 </div>
+            </div>
+        </section>
+    </main>
 
-                <div class="contacto">
-                    <p>Horarios:</p>
-                    <p>Lunes a Viernes de 9 a 12:30 y 15 a 18hs</p>
-                    <p>Sábados de 9 a 13hs</p>
 
-                </div>
-                <div class="redes_sociales">
-                    <a href="https://facebook.com">
+    <footer class="pie_de_pagina">
+        <section class="pie_pagina">
+
+            <div class="contacto">
+                <a class="contacto_ref" name="contacto" href="../pages/contacto.html">Contacto:</a>
+
+                <p>ElectroAvenida</p>
+                <p>Contacto: +54 341 (15) 5780456</p>
+                <p>Dirección: Mendoza 2626</p>
+                <p>Mail: contacto@electroavenida.com</p>
+            </div>
+
+            <div>
+
+                <iframe class="maps_google"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.12534688777!2d-60.662573885206804!3d-32.947699879270694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab426221ddfd%3A0x40ac2532ea533e49!2sMendoza%202626%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1669205675950!5m2!1ses-419!2sar"
+                    style="border:2;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contacto">
+                <p>Horarios:</p>
+                <p>Lunes a Viernes de 9 a 12:30 y 15 a 18hs</p>
+                <p>Sábados de 9 a 13hs</p>
+
+            </div>
+            <div class="redes_sociales">
+                <a href="https://facebook.com">
                     <img class="redes_sociales_icon" src="../img/facebook.png" alt="Icono de Facebook"> </a>
-                    <a href="https://instagram.com">
+                <a href="https://instagram.com">
                     <img class="redes_sociales_icon" src="../img/instagram.png" alt="Icono de Instagram"> </a>
-                    <a href="https://api.whatsapp.com/send/?phone=543415780456">
-                        <img class="redes_sociales_icon" src="../img/whatsapp.png" alt="Icono de Whatsapp">
-                    </a>
-                </div>
-            </section>
+                <a href="https://api.whatsapp.com/send/?phone=543415780456">
+                    <img class="redes_sociales_icon" src="../img/whatsapp.png" alt="Icono de Whatsapp">
+                </a>
+            </div>
+        </section>
 
-        </footer>
+    </footer>
+    <!-- /* Javacsript */ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
 
-    </body>
 </html>

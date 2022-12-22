@@ -50,20 +50,31 @@ header{
     justify-content:space-between;
     margin: 20px 15px 10px 15px;
 }
-
+    
     .logo_electroavenida {
         /*margin-left: 3px ;*/
         width: 120px;
         height: 120px;
         
     }
-    
+    /* Animar el título ElectroAvenida para que aparezca de a poco */
     .electroavenida_titulo {
         font-size: 60px;
         font-family:'Arial Narrow Bold', sans-serif ;
         font:bold;
-        color:  rgba(0, 0, 0, 0.512);
-        
+        animation-name: slidein;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes slidein {
+        from {
+            color:  rgba(0, 0, 0, 0.512);
+        }
+        to{
+            color:  rgba(40, 165, 233, 0.512); 
+        }
     }
 
     .label_buscar {
