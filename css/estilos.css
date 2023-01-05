@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* Primero tipografía y luego * los márgenes si o si */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* HEADER */
+header {
+  /* Color cabecera */
+  background-color: rgba(0, 0, 0, 0.85);
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  header .menu_titulo {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column; }
+    header .menu_titulo div .cabecera {
+      color: white;
+      text-align: left;
+      font-size: 15px;
+      float: left;
+      margin-left: 10px; }
+    header .menu_titulo div .cabecera_local {
+      color: white;
+      text-align: right;
+      font-size: 15px;
+      float: right;
+      margin-right: 10px; }
+  header .menu_principal {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 15px 10px 15px; }
+    header .menu_principal div .logo_electroavenida {
+      /*margin-left: 3px ;*/
+      width: 120px;
+      height: 120px; }
+    header .menu_principal .electroavenida_titulo {
+      font-size: 60px;
+      font-family: 'Arial Narrow Bold', sans-serif;
+      font: bold;
+      animation-name: slidein;
+      animation-duration: 4s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite; }
+
+@keyframes slidein {
+  from {
+    color: rgba(0, 0, 0, 0.512); }
+  to {
+    color: rgba(40, 165, 233, 0.512); } }
+
+/* MAIN INDEX */
+.back_main {
+  /*background-image: url("../img/aeropuerto.jpg");*/
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/aeropuerto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .back_main .container_productos {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .back_main .container_productos .producto {
+      font-size: 15px;
+      background: #cac7c7;
+      color: black;
+      padding: 1em;
+      border: 1px solid black;
+      text-align: center;
+      transition: 1s; }
+      .back_main .container_productos .producto:hover {
+        transform: scale(1.1);
+        box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      .back_main .container_productos .producto h3 {
+        font-size: 25px;
+        text-align: center; }
+      .back_main .container_productos .producto .item_producto {
+        margin: 3px;
+        width: 150px;
+        height: 150px; }
+
+.dist_pag {
+  background: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .dist_pag .dist_pag_grid {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: .4fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .dist_pag .dist_pag_grid .titulo_show {
+      /*margin-left: 180px;*/
+      color: white;
+      font-size: 16px; }
+    .dist_pag .dist_pag_grid .menu_show {
+      display: inline-block; }
+    .dist_pag .dist_pag_grid .page_nro {
+      color: white;
+      font-size: 16px; }
+
+#neon {
+  font-size: 22px;
+  color: #FFFFFF;
+  background: #33333300;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ec0b0b 0px 0px 20px, #ec0b0b 0px 0px 30px, #ec0b0b 0px 0px 40px, #ec0b0b 0px 0px 50px, #ec0b0b 0px 0px 75px;
+  color: #FFFFFF;
+  background: #33333300; }
+
+/* VF */
+.back_main {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/aeropuerto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .back_main .container_productos_vf {
+    max-width: 100%;
+    margin: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .back_main .container_productos_vf h6 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 30px;
+      font-style: bold; }
+    .back_main .container_productos_vf .producto {
+      font-size: 15px;
+      background: #cac7c7;
+      color: black;
+      padding: 1em;
+      border: 1px solid black;
+      text-align: center;
+      transition: 1s; }
+      .back_main .container_productos_vf .producto:hover {
+        transform: scale(1.1);
+        box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      .back_main .container_productos_vf .producto .item_producto {
+        margin: 3px;
+        width: 150px;
+        height: 150px; }
+    .back_main .container_productos_vf h5 {
+      font-size: 25px;
+      font-style: bold;
+      border: 1px solid black;
+      color: white;
+      background: black;
+      margin-top: 10px; }
+
+/* BLOGS */
+.blogs {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  gap: 30px; }
+  .blogs .blog_imagen {
+    border: 2px solid black;
+    width: 305px;
+    height: 305px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .blogs .blog_imagen .item_blog {
+      width: 300px;
+      height: 300px;
+      list-style: none; }
+  .blogs .blog_text {
+    font-size: 15px; }
+
+.contacto_main {
+  max-width: 100%;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray; }
+
+/* Footer */
+.pie_de_pagina {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  margin: 0px; }
+  .pie_de_pagina .pie_pagina {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .pie_de_pagina .pie_pagina .contacto {
+      margin: 5px 5px 5px 5px;
+      font-size: 20px; }
+      .pie_de_pagina .pie_pagina .contacto .contacto_ref {
+        text-decoration: none;
+        color: #ec0b0b;
+        font-size: 35px; }
+    .pie_de_pagina .pie_pagina div .maps_google {
+      width: 800px;
+      height: 300px; }
+    .pie_de_pagina .pie_pagina .redes_sociales {
+      position: fixed;
+      bottom: 50px;
+      right: 50px; }
+      .pie_de_pagina .pie_pagina .redes_sociales .redes_sociales_icon {
+        height: 40px;
+        width: 40px;
+        transition: 1s; }

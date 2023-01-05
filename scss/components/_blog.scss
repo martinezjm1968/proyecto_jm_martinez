@@ -1,0 +1,28 @@
+/* BLOGS */
+
+.blogs{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    gap: 30px;
+    .blog_imagen{
+        border: 2px solid black;    
+        width: 305px;
+        height: 305px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .item_blog{
+            width: 300px;
+            height: 300px;
+            list-style: none;
+        }
+    }
+    .blog_text{
+        font-size: 15px;
+    }
+}

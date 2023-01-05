@@ -1,0 +1,83 @@
+/* MAIN INDEX */
+.back_main {
+    /*background-image: url("../img/aeropuerto.jpg");*/
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url("../img/aeropuerto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container_productos{
+        max-width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        .producto{
+            font-size: 15px;
+            background: rgb(202, 199, 199);
+            color: black;
+            padding: 1em;
+            border: 1px solid black;
+            text-align: center;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            h3{
+                font-size: 25px;
+                text-align: center;
+            }
+            .item_producto{
+                margin: 3px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+}
+.dist_pag{
+    background: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .dist_pag_grid{
+        max-width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: .4fr 1fr 1fr;
+        gap: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        .titulo_show{
+            /*margin-left: 180px;*/
+            color: white;
+            font-size: 16px;
+        }
+        .menu_show{
+            display: inline-block;
+        }
+        .page_nro{
+            color: white;
+            font-size: 16px;
+        }
+    }
+}
+#neon {
+    font-size: 22px; 
+    color: #FFFFFF;
+    background: #33333300;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ec0b0b 0px 0px 20px, #ec0b0b 0px 0px 30px, #ec0b0b 0px 0px 40px, #ec0b0b 0px 0px 50px, #ec0b0b 0px 0px 75px;
+    color: #FFFFFF;
+    background: #33333300;
+}

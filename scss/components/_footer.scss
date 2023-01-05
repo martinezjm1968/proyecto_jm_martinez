@@ -1,0 +1,46 @@
+/* Footer */
+
+    .pie_de_pagina{
+        background-color:  rgba(0, 0, 0, 0.85);
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        .pie_pagina{
+            max-width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .contacto{
+                margin: 5px 5px 5px 5px;
+                font-size: 20px;
+                .contacto_ref{
+                    text-decoration: none;
+                    color:#ec0b0b;
+                    font-size: 35px;
+                }
+            }
+            div{
+                .maps_google{
+                    width: 800px;  
+                    height: 300px;
+                }
+            }
+
+            .redes_sociales{
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                .redes_sociales_icon{
+                    height:40px; 
+                    width:40px;
+                    transition: 1s;
+                }
+            }
+        }
+    }

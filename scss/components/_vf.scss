@@ -1,0 +1,52 @@
+/* VF */
+
+.back_main{
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url("../img/aeropuerto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container_productos_vf{
+        max-width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        h6{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            font-style: bold;
+        }
+        .producto{
+            font-size: 15px;
+            background: rgb(202, 199, 199);
+            color: black;
+            padding: 1em;
+            border: 1px solid black;
+            text-align: center;
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            .item_producto{
+                margin: 3px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+        h5{
+            font-size: 25px;
+            font-style: bold;
+            border: 1px solid black;
+            color: white;
+            background: black;
+            margin-top: 10px;
+        }
+    }
+}
