@@ -308,7 +308,6 @@ header {
 
 /* 1130px */
 @media screen and (max-width: 1130px) {
-  /* Ajusto menú cabecera */
   /* Ajusto contenedor de productos */
   .back_main .container_productos {
     grid-template-columns: repeat(4, 1fr);
@@ -330,12 +329,10 @@ header {
     font-size: 20px; }
   .pie_de_pagina .pie_pagina div .maps_google {
     width: 400px;
-    height: 200px; }
-  /* Cabecera Buscar */ }
+    height: 200px; } }
 
 /* 840px */
 @media screen and (max-width: 840px) {
-  /* Ajusto menú cabecera */
   header .menu_principal div .logo_electroavenida {
     width: 90px;
     height: 90px; }
@@ -354,7 +351,6 @@ header {
 
 /* 780px */
 @media screen and (max-width: 780px) {
-  /* Cabecera */
   /* Ajusto footer */
   .pie_de_pagina .pie_pagina .contacto {
     font-size: 8px; }
@@ -411,7 +407,6 @@ header {
     height: 40px; }
   header .menu_principal .electroavenida_titulo {
     font-size: 15px; }
-  /* Cabecera Buscar */
   header .menu_titulo div .cabecera {
     font-size: 8px; }
   header .menu_titulo div .cabecera_local {
