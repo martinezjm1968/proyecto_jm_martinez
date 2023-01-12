@@ -1,21 +1,13 @@
 /* MAIN INDEX */
 .back_main {
-    /*background-image: url("../img/aeropuerto.jpg");*/
     background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url("../img/aeropuerto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     .container_productos{
-        max-width: 100%;
-        margin: 10px 10px 10px 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 15px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-
+        @include grilla(100%, 10px, grid, repeat(5, 1fr), 15px, 20px,
+        20px, 0px, 0px, 0px, 0px);
+        
         .producto{
             font-size: 15px;
             background: rgb(202, 199, 199);
@@ -48,19 +40,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     .dist_pag_grid{
-        max-width: 100%;
-        margin: 10px 10px 10px 10px;
-        display: grid;
-        grid-template-columns: .4fr 1fr 1fr;
-        gap: 10px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        
+        @include grilla(100%, 10px, grid, repeat(5, 1fr), 10px, 5px,
+        5px, 20px, 20px, 0px, 0px);
+
         .titulo_show{
-            /*margin-left: 180px;*/
             color: white;
             font-size: 16px;
         }

@@ -1,0 +1,18 @@
+/* VARIABLES */
+
+@mixin grilla ($max, $margen, $display, $columnas, $gap, 
+$padd_b, $padd_t, $marg_l, $marg_r, $marg_t, $marg_b){
+    max-width: $max;
+    margin: $margen;
+    display: $display;
+    grid-template-columns: $columnas;
+    gap: $gap;
+    padding-bottom: $padd_b;
+    padding-top: $padd_t;
+    margin-left: $marg_l;
+    margin-right: $marg_r;
+    margin-top: $marg_t;
+    margin-bottom: $marg_b;
+
+}
+
