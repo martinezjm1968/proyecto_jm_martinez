@@ -8,11 +8,7 @@ header {
     top: 0;
     z-index: 1;
     .menu_titulo{ 
-        max-width: 100%;
-        margin: auto;
-        display: flex;
-        align-content:center ;
-        flex-direction: column;
+        @include flexible (100%, auto, flex, center, column);
         
         div{
             .cabecera{ 
@@ -32,11 +28,7 @@ header {
         }
     }
     .menu_principal{
-        max-width: 100%;
-        display:flex ;
-        flex-direction:row;
-        justify-content:space-between;
-        margin: 20px 15px 10px 15px;
+        @include flexible (100%, auto, flex, space-between, row);
         
         div{
             .logo_electroavenida{

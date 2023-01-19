@@ -15,3 +15,10 @@ $padd_b, $padd_t, $marg_l, $marg_r, $marg_t, $marg_b){
     margin-bottom: $marg_b;
 }
 
+@mixin flexible ($maximo, $margen, $disp, $alineacion, $flex){
+    max-width: 1$maximo;
+    margin: $margen;
+    display: $disp;
+    align-content:$alineacion ;
+    flex-direction: $flex;
+}

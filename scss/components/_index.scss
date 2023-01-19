@@ -13,11 +13,12 @@
             background: rgb(202, 199, 199);
             color: black;
             padding: 1em;
+            margin-right: 8px;
             border: 1px solid black;
             text-align: center;
             transition: 1s;
             &:hover{
-                transform: scale(1.1);
+                transform: scale(1.04);
                 box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
                 -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
                 -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
