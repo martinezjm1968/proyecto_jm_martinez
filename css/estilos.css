@@ -15,11 +15,12 @@ header {
   top: 0;
   z-index: 1; }
   header .menu_titulo {
-    max-width: 1 100%;
+    max-width: 100%;
     margin: auto;
     display: flex;
     align-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: center; }
     header .menu_titulo div .cabecera {
       color: white;
       text-align: left;
@@ -33,11 +34,12 @@ header {
       float: right;
       margin-right: 10px; }
   header .menu_principal {
-    max-width: 1 100%;
-    margin: auto;
+    max-width: 100%;
+    margin: 20px 15px 10px 15px;
     display: flex;
-    align-content: space-between;
-    flex-direction: row; }
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between; }
     header .menu_principal div .logo_electroavenida {
       width: 120px;
       height: 120px; }
