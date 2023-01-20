@@ -1,6 +1,7 @@
 /* Productos unitarios */
 
 .un_producto {
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url("../img/aeropuerto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +31,7 @@
                     text-align: center;
                     
                 }
+                
                 
             }
         }

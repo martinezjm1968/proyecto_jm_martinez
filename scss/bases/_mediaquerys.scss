@@ -273,5 +273,19 @@
             width: 90px;
             height: 90px;
         }
+        // productos individuales
+        .un_producto .unitario_producto {
+            @include grilla(80x, 5px, grid, repeat(1fr), 0px, 5px,
+                5px, 20px, 0px, 0px, 0px);
+                }
+        
+        .un_producto .unitario_producto .cada_producto {
+            margin-right: 5px;
+
+        }
+        .un_producto .unitario_producto .cada_producto .item_producto{
+            width: 150px;
+            height: 150px;
+        }
 }
 /* Fin de media screen */

@@ -251,6 +251,7 @@ header {
 
 /* Productos unitarios */
 .un_producto {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/aeropuerto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -479,6 +480,23 @@ header {
     height: 90px; }
   .blogs .blog_imagen .item_blog {
     width: 90px;
-    height: 90px; } }
+    height: 90px; }
+  .un_producto .unitario_producto {
+    max-width: 80x;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .un_producto .unitario_producto .cada_producto {
+    margin-right: 5px; }
+  .un_producto .unitario_producto .cada_producto .item_producto {
+    width: 150px;
+    height: 150px; } }
 
 /* Fin de media screen */
