@@ -249,6 +249,41 @@ header {
         width: 40px;
         transition: 1s; }
 
+/* Productos unitarios */
+.un_producto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .un_producto .unitario_producto {
+    max-width: 80%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    gap: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .un_producto .unitario_producto .cada_producto {
+      font-size: 15px;
+      background: #cac7c7;
+      color: black;
+      padding: 1em;
+      margin-right: 20px;
+      border: 1px solid black;
+      text-align: center;
+      transition: 1s; }
+      .un_producto .unitario_producto .cada_producto:hover {
+        transform: scale(1.04);
+        box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+        .un_producto .unitario_producto .cada_producto:hover h3 {
+          font-size: 25px;
+          text-align: center; }
+
 /* --------------------------------------------------------- */
 /* Comienzo con media screen para responsive */
 /*  */

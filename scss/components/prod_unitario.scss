@@ -1,0 +1,37 @@
+/* Productos unitarios */
+
+.un_producto {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .unitario_producto {
+        @include grilla(80%, 10px, grid, repeat(2fr), 0px, 20px,
+            20px, 50px, 0px, 0px, 0px);
+
+        .cada_producto {
+            font-size: 15px;
+            background: rgb(202, 199, 199);
+            color: black;
+            padding: 1em;
+            margin-right: 20px;
+            border: 1px solid black;
+            text-align: center;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.04);
+                box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+                h3 {
+                    font-size: 25px;
+                    text-align: center;
+                    
+                }
+                
+            }
+        }
+    }
+}
