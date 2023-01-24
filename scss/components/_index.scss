@@ -4,11 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    .container_productos{
-        @include grilla(100%, 10px, grid, repeat(5, 1fr), 15px, 20px,
-        20px, 0px, 0px, 0px, 0px);
-        
-        .producto{
+
+    .container_productos {
+        @include grilla(100%, 10px, grid, repeat(5, 1fr), 5px, 10px,
+            10px, 10px, 10px, 0px, 0px);
+
+        .producto {
             font-size: 15px;
             background: rgb(202, 199, 199);
             color: black;
@@ -17,52 +18,60 @@
             border: 1px solid black;
             text-align: center;
             transition: 1s;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.04);
-                box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
-                -webkit-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
-                -moz-box-shadow: 13px 10px 5px 0px rgba(0,0,0,0.75);
+                box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 13px 10px 5px 0px rgba(0, 0, 0, 0.75);
             }
-            h3{
+
+            h3 {
                 font-size: 25px;
                 text-align: center;
             }
-            .item_producto{
+
+            .item_producto {
                 margin: 3px;
                 width: 150px;
                 height: 150px;
             }
+
+            h5 {
+                font-size: 25px;
+                font-style: bold;
+                border: 1px solid black;
+                color: white;
+                background: black;
+                margin-top: 10px;
+            }
         }
     }
 }
-.dist_pag{
+
+.dist_pag {
     background: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    .dist_pag_grid{
-        
-        @include grilla(100%, 10px, grid, repeat(5, 1fr), 10px, 5px,
-        5px, 20px, 20px, 0px, 0px);
 
-        .titulo_show{
+    .dist_pag_grid {
+
+        @include grilla(100%, 10px, grid, repeat(5, 1fr), 10px, 5px,
+            5px, 20px, 20px, 0px, 0px);
+
+        .titulo_show {
             color: white;
             font-size: 16px;
         }
-        .menu_show{
+
+        .menu_show {
             display: inline-block;
         }
-        .page_nro{
+
+        .page_nro {
             color: white;
             font-size: 16px;
         }
     }
-}
-#neon {
-    font-size: 22px; 
-    color: #FFFFFF;
-    background: #33333300;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ec0b0b 0px 0px 20px, #ec0b0b 0px 0px 30px, #ec0b0b 0px 0px 40px, #ec0b0b 0px 0px 50px, #ec0b0b 0px 0px 75px;
-    color: #FFFFFF;
-    background: #33333300;
 }

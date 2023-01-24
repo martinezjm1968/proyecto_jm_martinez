@@ -6,9 +6,11 @@ header {
     background-color: rgba(0, 0, 0, 0.85);
     position: sticky;
     top: 0;
+    bottom: 0;
     z-index: 1;
     .menu_titulo{ 
         @include flexible (100%, auto, flex, center, column, center);
+        padding-bottom: 2px;
         
         div{
             .cabecera{ 
@@ -28,25 +30,18 @@ header {
         }
     }
     .menu_principal{
-        @include flexible (100%,(20px 15px 10px 15px), flex, center, row, space-between);
-                
+        @include flexible (100%,(10px 10px 0px 25px), flex, center, row, space-between);
+             
         div{
             .logo_electroavenida{
-                
                 width: 120px;
                 height: 120px;
+                margin-bottom: 15px;
             }
         }
-        .electroavenida_titulo{
-            font-size: 60px;
-            font-family:'Arial Narrow Bold', sans-serif ;
-            font:bold;
-            animation-name: slidein;
-            animation-duration: 4s;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-        }
+        
     }
+ 
 }
 @keyframes slidein {
     from {
@@ -56,3 +51,4 @@ header {
         color:  rgba(40, 165, 233, 0.512); 
     }
 }
+

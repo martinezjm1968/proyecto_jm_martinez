@@ -8,12 +8,16 @@
     .back_main .container_productos_vf {
         grid-template-columns: repeat(4, 1fr);
     }
-    .back_main .container_productos_vf h5{
+    .back_main .container_productos_vf .producto h5{
         font-size: 18px;
         margin-top: 8px;
     }
-    .back_main .container_productos_vf h6 { 
+    .back_main .container_productos_vf .producto h6 { 
         font-size: 22px;
+    }
+    .back_main .container_productos .producto h5 {
+        font-size: 18px;
+        margin-top: 8px;
     }
 }
 
@@ -41,12 +45,16 @@
     .back_main .container_productos_vf {
         grid-template-columns: repeat(4, 1fr);
     }
-    .back_main .container_productos_vf h5 {
+    .back_main .container_productos_vf .producto h5 {
         font-size: 14px;
         margin-top: 7px;
     }
-    .back_main .container_productos_vf h6 { 
+    .back_main .container_productos_vf .producto h6 { 
         font-size: 18px;
+    }
+    .back_main .container_productos .producto h5 {
+        font-size: 14px;
+        margin-top: 7px;
     }
 }
 
@@ -56,12 +64,16 @@
     .back_main .container_productos_vf {
         grid-template-columns: repeat(3, 1fr);
     }
-    .back_main .container_productos_vf h5 {
+    .back_main .container_productos_vf .producto h5 {
         font-size: 12px;
         margin-top: 5px;
     }
-    .back_main .container_productos_vf h6 { 
+    .back_main .container_productos_vf .producto h6 { 
         font-size: 15px;
+    }
+    .back_main .container_productos .producto h5 {
+        font-size: 12px;
+        margin-top: 5px;
     }
 }
 
@@ -163,12 +175,16 @@
     .back_main .container_productos_vf {
         grid-template-columns: repeat(2, 1fr);
     }
-    .back_main .container_productos_vf h5 {
-        font-size: 15px;
+    .back_main .container_productos_vf .producto h5 {
+        font-size: 10px;
         margin-top: 2px;
     }
-    .back_main .container_productos_vf h6 { 
+    .back_main .container_productos_vf .producto h6 { 
         font-size: 15px;
+    }
+    .back_main .container_productos .producto h5 {
+        font-size: 10px;
+        margin-top: 2px;
     }
     /* Ajusto Blog */
     .blogs .blog_text {
@@ -244,13 +260,17 @@
         grid-template-columns: 1fr;
     }
     /* importe vf */
-    .back_main .container_productos_vf h5 {
-        font-size: 20px;
+    .back_main .container_productos_vf .producto h5 {
+        font-size: 15px;
         margin-top: 2px;
     }
     /* título vf */
-    .back_main .container_productos_vf h6 { 
+    .back_main .container_productos_vf .producto h6 { 
         font-size: 20px;
+    }
+    .back_main .container_productos .producto h5 {
+        font-size: 15px;
+        margin-top: 2px;
     }
     /* Footer - Titulo de Contacto */ 
     .pie_de_pagina .pie_pagina .contacto .contacto_ref {
