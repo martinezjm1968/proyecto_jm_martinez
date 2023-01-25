@@ -41,14 +41,14 @@ header {
       margin-right: 10px; }
   header .menu_principal {
     max-width: 100%;
-    margin: 10px 10px 0px 25px;
+    margin: 5px 5px 0px 12px;
     display: flex;
     align-content: center;
     flex-direction: row;
     justify-content: space-between; }
     header .menu_principal div .logo_electroavenida {
-      width: 120px;
-      height: 120px;
+      width: 90px;
+      height: 90px;
       margin-bottom: 15px; }
 
 @keyframes slidein {
@@ -235,6 +235,8 @@ header {
         text-decoration: none;
         color: #ec0b0b;
         font-size: 35px; }
+    .pie_de_pagina .pie_pagina div h1 {
+      font-size: 15px; }
     .pie_de_pagina .pie_pagina div .maps_google {
       width: 800px;
       height: 300px; }
@@ -380,8 +382,8 @@ header {
 /* 840px */
 @media screen and (max-width: 840px) {
   header .menu_principal div .logo_electroavenida {
-    width: 90px;
-    height: 90px; }
+    width: 70px;
+    height: 70px; }
   header .menu_principal .electroavenida_titulo {
     font-size: 40px; }
   /* Ajusto contenedor de productos */
@@ -431,8 +433,8 @@ header {
 @media screen and (max-width: 650px) {
   /* Ajusto menú cabecera */
   header .menu_principal div .logo_electroavenida {
-    width: 60px;
-    height: 60px; }
+    width: 50px;
+    height: 50px; }
   header .menu_principal .electroavenida_titulo {
     font-size: 25px; }
   /* Ajusto contenedor de productos */
@@ -482,6 +484,8 @@ header {
   /* Footer - Titulo de Contacto */
   .pie_de_pagina .pie_pagina .contacto .contacto_ref {
     font-size: 8px; }
+  .pie_de_pagina .pie_pagina div h1 {
+    font-size: 9px; }
   .pie_de_pagina .pie_pagina div .maps_google {
     width: 80px;
     height: 50px; }

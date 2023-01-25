@@ -134,8 +134,8 @@
 @media screen and (max-width:840px) {
 
     header .menu_principal div .logo_electroavenida {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
     header .menu_principal .electroavenida_titulo {
         font-size: 40px;
@@ -204,8 +204,8 @@
 @media screen and (max-width:650px) {
     /* Ajusto menú cabecera */
     header .menu_principal div .logo_electroavenida {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
     header .menu_principal .electroavenida_titulo {
         font-size: 25px;
@@ -276,7 +276,9 @@
     .pie_de_pagina .pie_pagina .contacto .contacto_ref {
         font-size: 8px;
     }
-    
+    .pie_de_pagina .pie_pagina div h1{
+        font-size: 9px;
+    }
     .pie_de_pagina .pie_pagina div .maps_google {
         width: 80px;  
         height: 50px;
